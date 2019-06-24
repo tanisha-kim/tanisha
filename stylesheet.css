@@ -1082,6 +1082,8 @@ footer ul li:nth-child(4){
 
 @media (max-width:500px){
 
+
+
   .container{
     display:flex;
     flex-wrap: wrap;
@@ -1147,11 +1149,11 @@ footer ul li:nth-child(4){
 
   }
   .gutter{
-    height: 7.8vw;
-    width: 7vw;
+    height: 30px;
+    width: 30px;
     position:fixed;
-    margin-right: .8vw;
-    margin-top: .4vw;
+    margin-right: 30px;
+    margin-top: 5px;
     padding:0;
     /* bottom: 0; */
     right: 0;
@@ -1161,6 +1163,7 @@ footer ul li:nth-child(4){
     /* top:350px; */
     z-index: 2;
     /* line-height: 70px; */
+    background-size: contain;
   }
 
 
@@ -1170,6 +1173,7 @@ footer ul li:nth-child(4){
     text-transform: uppercase;
     text-align:center;
     margin-top:7.5vw;
+    margin-right: 0;
     padding:0;
     font-size: 6px;
   }
