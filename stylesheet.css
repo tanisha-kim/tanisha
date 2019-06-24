@@ -1093,6 +1093,7 @@ footer ul li:nth-child(4){
     background-repeat:repeat;
     background-size: auto;
     /* min-width: 300px; */
+    overflow-x: hidden;
 
   }
 
