@@ -842,7 +842,8 @@ td{
 @media (max-width:500px){
 
   body{
-    overflow-x: hidden;
+
+
     /* min-width: 500px; */
 
     /* background-size: cover; */
