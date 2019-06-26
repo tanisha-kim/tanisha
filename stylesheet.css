@@ -670,6 +670,7 @@ transition: .3s;
 
 .gutter{
   position:sticky;
+  position: -webkit-sticky;
   top:350px;
   height: 13vw;;
   width:11.2vw;
@@ -885,6 +886,8 @@ td{
    z-index: 1;
    }
 
+
+
   .container{
     display:flex;
     flex-wrap: wrap;
@@ -990,6 +993,8 @@ td{
 
   }
   .gutter{
+    /* position:sticky;
+    position: -webkit-sticky; */
     height: 30px;
     width: 30px;
     position:fixed;
@@ -1000,14 +1005,11 @@ td{
     right: 0;
     /* left:0; */
     top:0;
-    /* position: sticky; */
     /* top:350px; */
     z-index: 2;
     /* line-height: 70px; */
     background-size: contain;
   }
-
-
 
   .gutter p{
     font-family: 'Unica One', cursive;
