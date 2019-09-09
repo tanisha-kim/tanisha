@@ -570,11 +570,11 @@ td{
 
   .text{
     position:absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
      text-align: center;
-     font-size: 5rem;
+     font-size: 3rem;
   }
 
   .contents_about_in{
